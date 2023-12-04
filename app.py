@@ -23,6 +23,7 @@ def main():
     # 저장된 데이터를 출력
     st.write('Stored Data:', stored_data)
 
+# Streamlit 앱 실행
 if __name__ == '__main__':
     # 업데이트 데이터를 처리하는 함수를 호출하여 데이터를 업데이트
     result = update_data({"example_key": "example_value"})
